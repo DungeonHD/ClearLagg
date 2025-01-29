@@ -1,0 +1,7 @@
+name: ClearLagg
+version: '1.0'
+main: net.dungeonhd.clearLagg.ClearLagg
+api-version: '1.21'
+authors: [ xyqj ]
+description: Every 5 Minutes all dropped Items get removed
+website: https://dungeonhd.net

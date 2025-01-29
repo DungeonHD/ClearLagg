@@ -1,0 +1,12 @@
+Messages:
+  GLOBAL:
+    Prefix: '&7[&#ffaa00ClearLagg&7]&#009bff '
+    ErrorPrefix: '&#a51717Fehler:&#ff0000 '
+    NoPermissions: '%error_prefix%Du hast keine Berechtigungen, diesen Befehl ausfzuführen!'
+    RequirePlayer: '%error_prefix%Für diese Aktion wird ein Spieler benötigt!'
+    Syntax: '%error_prefix%Unvollständiger Befehl! Benutze &#ffe000/clearlagg help'
+    Reload: '%prefix%&#1bff00Alle Konfigurationsdateien wurden erfolgreich neugeladen!'
+
+  CHAT:
+    ClearLaggWarning: '%prefix%&#ff0000Alle auf dem Boden liegende Items werden in &#ffe000%time% &#ff0000entfernt!'
+    ClearLaggCleared: '%prefix%&#1bff00Es wurden &#ffe000%items% Items&#1bff00 entfernt!'

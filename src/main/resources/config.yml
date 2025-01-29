@@ -1,0 +1,18 @@
+# Configure the interval in seconds (300 = 5 minutes)
+clearInterval: 300
+
+timeFormat:
+  Years: 'Jahre'
+  Year: 'Jahr'
+  Months: 'Monate'
+  Month: 'Monat'
+  Weeks: 'Wochen'
+  Week: 'Woche'
+  Days: 'Tage'
+  Day: 'Tag'
+  Hours: 'Stunden'
+  Hour: 'Stunde'
+  Minutes: 'Minuten'
+  Minute: 'Minute'
+  Seconds: 'Sekunden'
+  Second: 'Sekunde'
