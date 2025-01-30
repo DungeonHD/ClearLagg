@@ -5,3 +5,17 @@ api-version: '1.21'
 authors: [ xyqj ]
 description: Every 5 Minutes all dropped Items get removed
 website: https://dungeonhd.net
+commands:
+  clearlagg:
+    description: Haupt-Befehl für das Plugin
+
+permissions:
+  clearlagg.*:
+    description: Gibt dir alle Berechtigungen für das Plugin
+    children:
+      clearlagg.command.*: true
+  clearlagg.command.*:
+    description: Gibt dir alle Berechtigungen für Befehle
+    children:
+      clearlagg.command.clearlagg: true
+      clearlagg.command.reload: true

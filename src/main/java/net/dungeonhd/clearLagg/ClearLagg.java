@@ -1,5 +1,6 @@
 package net.dungeonhd.clearLagg;
 
+import net.dungeonhd.clearLagg.commands.ClearLaggCommand;
 import net.dungeonhd.clearLagg.managers.ConfigManager;
 import net.dungeonhd.clearLagg.managers.MessageManager;
 import net.dungeonhd.clearLagg.tasks.ClearTask;
@@ -18,6 +19,9 @@ public final class ClearLagg extends JavaPlugin {
         messageManager = new MessageManager(this);
 
         new ClearTask(this).runTaskTimer(this, 20, 20);
+
+        getCommand("clearlagg").setExecutor(new ClearLaggCommand(this));
+        getCommand("clearlagg").setTabCompleter(new ClearLaggCommand(this));
     }
 
     @Override

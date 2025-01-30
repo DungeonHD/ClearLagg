@@ -1,6 +1,7 @@
-# Configure the interval in seconds (300 = 5 minutes)
-clearInterval: 300
+# Configure the interval in seconds (600 = 10 minutes)
+clearInterval: 600
 
+# Configure the time-format output
 timeFormat:
   Years: 'Jahre'
   Year: 'Jahr'

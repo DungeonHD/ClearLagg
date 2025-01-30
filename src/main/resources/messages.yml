@@ -10,3 +10,10 @@ Messages:
   CHAT:
     ClearLaggWarning: '%prefix%&#ff0000Alle auf dem Boden liegende Items werden in &#ffe000%time% &#ff0000entfernt!'
     ClearLaggCleared: '%prefix%&#1bff00Es wurden &#ffe000%items% Items&#1bff00 entfernt!'
+
+    PluginHelp:
+      - '&#ffaa00&lClearLagg &#1bff00v%plugin_version%'
+      - '&#c53beaPlugin by xyqj'
+      - ' '
+      - '&#ffe000/clearlagg help &7Zeigt dir diese Seite an'
+      - '&#ffe000/clearlagg reload &7Lädt das Plugin neu'
