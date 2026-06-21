@@ -1,10 +1,10 @@
 name: ClearLagg
 version: '1.0'
 main: net.dungeonhd.clearLagg.ClearLagg
-api-version: '1.21'
-authors: [ xyqj ]
-description: Every 5 Minutes all dropped Items get removed
-website: https://dungeonhd.net
+api-version: '26.1.2'
+authors: [ DungeonHD ]
+description: Alle fallengelassenen Gegenstände werden alle 5 Minuten entfernt.
+website: https://www.dungeonhd.net
 commands:
   clearlagg:
     description: Haupt-Befehl für das Plugin
